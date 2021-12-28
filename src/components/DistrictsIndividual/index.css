@@ -1,0 +1,57 @@
+.districts-list-req {
+  width: 160px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-right: 0px;
+}
+
+.districts-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19px;
+  color: #94a3b8;
+  align-self: center;
+  margin-left: 15px;
+}
+.districts-effected {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #94a3b8;
+}
+@media screen and (min-width: 768px) {
+  .districts-list-req {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-right: 90px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .districts-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 19px;
+    color: #94a3b8;
+    align-self: center;
+    margin-left: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .districts-effected {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #94a3b8;
+  }
+}

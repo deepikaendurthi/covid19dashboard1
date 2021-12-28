@@ -1,0 +1,39 @@
+.social_bg-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_heading {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #94a3b8;
+  font-family: Roboto;
+}
+
+.social-span {
+  color: #007bff;
+}
+.social-para {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #94a3b8;
+  font-family: Roboto;
+}
+.social-icons {
+  display: flex;
+  align-items: space-between;
+}
+.cat {
+  margin: 30px;
+}
+.instagram {
+  margin: 30px;
+}
+.twitter {
+  margin: 30px;
+}

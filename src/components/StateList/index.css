@@ -1,0 +1,66 @@
+.bg-container-stateList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 768) {
+  .bg-container-stateList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.bg-container-stateList:hover {
+  background-color: #1f1f30;
+  border-radius: 8px;
+}
+
+.stateName {
+  color: #64748b;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .stateName {
+    color: #64748b;
+    font-size: 16px;
+  }
+}
+
+.stateCodeContainer {
+  width: 79px;
+  height: 32px;
+  background-color: rgba(28, 212, 212, 0.16);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.stateCode {
+  font-size: 16px;
+  color: #facc15;
+}
+
+.symbolContainer {
+  border: solid 2px #facc15;
+  border-radius: 5px;
+  height: 15px;
+  width: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.symbol {
+  font-size: 12px;
+  color: #facc15;
+}

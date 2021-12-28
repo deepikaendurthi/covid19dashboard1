@@ -1,0 +1,69 @@
+.chart {
+  padding: 5px;
+  padding-top: 5px;
+  border-radius: 12px;
+  width: 360px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  height: 100%;
+  align-self: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .chart {
+    padding: 20px;
+    padding-top: 5px;
+    border-radius: 12px;
+    width: 1146px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    align-self: center;
+  }
+}
+.bar-graph {
+  width: 80%;
+  height: 100%;
+}
+@media screen and (min-width: 768px) {
+  .bar-graph {
+    width: 100%;
+  }
+}
+.chart-conformed {
+  background-color: #331427;
+}
+.chart-recovered {
+  background-color: #182829;
+}
+.chart-deceased {
+  background-color: #1c1c2b;
+}
+.chart-tested {
+  background-color: #230f41;
+}
+.chart-vaccinated1 {
+  background-color: #2e1e30;
+}
+.graph-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: end;
+  padding-right: 30px;
+}
+.graph-conformed {
+  color: #ff073a;
+}
+.graph-recovered {
+  color: #27a243;
+}
+.graph-deceased {
+  color: #6c757d;
+}
+.graph-tested {
+  color: #9673b9;
+}
+.graph-vaccinated1 {
+  color: #f95581;
+}
